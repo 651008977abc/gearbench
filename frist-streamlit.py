@@ -28,7 +28,7 @@ x = 10
 'x', x  # 👈 Draw the string 'x' and then the value of x
 
 # Also works with most supported chart types
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 
 # arr = np.random.normal(1, 1, size=100)
