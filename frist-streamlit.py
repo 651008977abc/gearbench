@@ -91,7 +91,7 @@ chart_data = pd.DataFrame(
 st.line_chart(chart_data)
 st.bar_chart(chart_data)
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 
 # arr = np.random.normal(1, 1, size=100)
