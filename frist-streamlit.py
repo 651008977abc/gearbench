@@ -31,11 +31,11 @@ x = 10
 import matplotlib.pyplot as plt
 import numpy as np
 
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
+# arr = np.random.normal(1, 1, size=100)
+# fig, ax = plt.subplots()
+# ax.hist(arr, bins=20)
 
-fig  # 👈 Draw a Matplotlib chart
+# fig  # 👈 Draw a Matplotlib chart
 
 st.markdown('Streamlit is **_really_ cool**.')
 st.title('This is a title')
@@ -94,11 +94,11 @@ st.bar_chart(chart_data)
 import matplotlib.pyplot as plt
 import numpy as np
 
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
+# arr = np.random.normal(1, 1, size=100)
+# fig, ax = plt.subplots()
+# ax.hist(arr, bins=20)
 
-st.pyplot(fig)
+# st.pyplot(fig)
 
 
 import streamlit as st
@@ -280,4 +280,4 @@ df2 = pd.DataFrame(
 
 my_table.add_rows(df2)
 # Now the table shown in the Streamlit app contains the data for
-# df1 followed by the data for df2.
+# df1 follo
