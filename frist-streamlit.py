@@ -102,7 +102,7 @@ import numpy as np
 
 
 import streamlit as st
-import plotly.figure_factory as ff
+# import plotly.figure_factory as ff
 import numpy as np
 
 # Add histogram data
@@ -116,11 +116,11 @@ hist_data = [x1, x2, x3]
 group_labels = ['Group 1', 'Group 2', 'Group 3']
 
 # Create distplot with custom bin_size
-fig = ff.create_distplot(
-        hist_data, group_labels, bin_size=[.1, .25, .5])
+# fig = ff.create_distplot(
+#         hist_data, group_labels, bin_size=[.1, .25, .5])
 
- # Plot!
-st.plotly_chart(fig, use_container_width=True)
+#  # Plot!
+# st.plotly_chart(fig, use_container_width=True)
 
 if st.button('Say hello'):
     st.write('Why hello there')
